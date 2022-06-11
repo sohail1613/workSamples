@@ -15,6 +15,7 @@ public class Clock extends JFrame {
         super.setTitle("Clock");
         super.setSize(400, 500);
         super.setLocation(950, 90);
+        super.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.crateGUI();
         this.clockStart();
         super.setVisible(true);
