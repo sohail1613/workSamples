@@ -21,7 +21,6 @@ public class MyThread implements Runnable{
         //creating helper class object
         Thread thread = new Thread(myThread);
 //        thread.start();
-
         //crating object of AnotherThread
         AnotherThread anotherThread = new AnotherThread();
         thread.start();
