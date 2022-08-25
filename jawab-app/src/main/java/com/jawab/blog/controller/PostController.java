@@ -55,7 +55,7 @@ public class PostController {
         return new ResponseEntity<List<PostDto>>(posts, HttpStatus.OK);
     }
 
-    //get post details by if
+    //get post details by id
     @GetMapping("/posts/{postId}")
     public ResponseEntity<PostDto> getPostById(@PathVariable Integer postId){
         PostDto postDto = this.postService.getPostById(postId);
