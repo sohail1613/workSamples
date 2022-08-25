@@ -79,10 +79,6 @@ public class PostServiceImplementation implements PostServices {
         return postDtos;
     }
 
-    @Override
-    public List<PostDto> searchPosts(String keyword) {
-        return null;
-    }
 
     //converter
     private Post dtoToPost(PostDto postDto){
