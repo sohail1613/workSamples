@@ -10,5 +10,5 @@ public interface PostLikeServices {
     List<PostLikeDto> getPostLikeByUser(Integer userId);
 
     //get all LikePosts by post
-    List<PostLikeDto> getPostLikeByPost(Integer postId);
+    List<PostLikeDto> getPostLikeByPage(Integer pageId);
 }
