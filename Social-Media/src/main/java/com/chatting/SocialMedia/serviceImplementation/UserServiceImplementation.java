@@ -5,6 +5,7 @@ import com.chatting.SocialMedia.exceptions.ResourceNotFoundException;
 import com.chatting.SocialMedia.payloads.UserDto;
 import com.chatting.SocialMedia.repositories.UserRepository;
 import com.chatting.SocialMedia.services.UserServices;
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,6 +17,9 @@ public class UserServiceImplementation implements UserServices {
 
     @Autowired
     private UserRepository userRepository;
+
+    @Autowired
+    private ModelMapper modelMapper;
 
     @Override
     public UserDto createUser(UserDto userDto) {
@@ -63,27 +67,29 @@ public class UserServiceImplementation implements UserServices {
 
     //converting from Dto to user
     private User dtoToUser(UserDto userDto){
-        User user = new User();
-        user.setUserId(userDto.getUserId());
-        user.setUserName(userDto.getUserName());
-        user.setUserAddress(userDto.getUserAddress());
-        user.setUserEmail(userDto.getUserEmail());
-        user.setUserTelephone(userDto.getUserTelephone());
-        user.setUserDob(userDto.getUserDob());
-        user.setUserGender(userDto.getUserGender());
+        User user = this.modelMapper.map(userDto, User.class);
+//        User user = new User();
+//        user.setUserId(userDto.getUserId());
+//        user.setUserName(userDto.getUserName());
+//        user.setUserAddress(userDto.getUserAddress());
+//        user.setUserEmail(userDto.getUserEmail());
+//        user.setUserTelephone(userDto.getUserTelephone());
+//        user.setUserDob(userDto.getUserDob());
+//        user.setUserGender(userDto.getUserGender());
         return user;
     }
 
     //converting from user to Dto
     private UserDto userToDto(User user){
-        UserDto userDto = new UserDto();
-        userDto.setUserId(user.getUserId());
-        userDto.setUserName(user.getUserName());
-        userDto.setUserAddress(user.getUserAddress());
-        userDto.setUserEmail(user.getUserEmail());
-        userDto.setUserTelephone(user.getUserTelephone());
-        userDto.setUserDob(user.getUserDob());
-        userDto.setUserGender(user.getUserGender());
+//        UserDto userDto = new UserDto();
+//        userDto.setUserId(userDto.getUserId());
+//        userDto.setUserName(user.getUserName());
+//        userDto.setUserAddress(user.getUserAddress());
+//        userDto.setUserEmail(user.getUserEmail());
+//        userDto.setUserTelephone(user.getUserTelephone());
+//        userDto.setUserDob(user.getUserDob());
+//        userDto.setUserGender(user.getUserGender());
+        UserDto userDto = this.modelMapper.map(user, UserDto.class);
         return userDto;
     }
 }
