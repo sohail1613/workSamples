@@ -42,7 +42,7 @@ public class PostController {
     @GetMapping("/category/{categoryId}/posts")
     public ResponseEntity<List<PostDto>> getPostsByCategory(@PathVariable Integer categoryId){
         List<PostDto> posts = this.postService.getPostsByCategory(categoryId);
-        return new ResponseEntity<List<PostDto>>(posts, OK);
+        return new ResponseEntity<List<PostDto>>(posts, HttpStatus.OK);
     }
 
     //get all posts
