@@ -1,39 +1,29 @@
 package com.chatting.SocialMedia.entity;
 
-import javax.persistence.ManyToOne;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+import javax.persistence.*;
+import java.sql.Date;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@Entity
+@Table(name = "posts")
 public class Post {
+    @Id
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Integer postId;
+    @Column(name = "post_date")
     private String postDate;
+    @Column(name = "post_content", length = 250)
     private String postContent;
 
     //relationship implementation
     @ManyToOne
     private User user;
 
-    //getters and setters
-    public Integer getPostId() {
-        return postId;
-    }
-
-    public void setPostId(Integer postId) {
-        this.postId = postId;
-    }
-
-    public String getPostDate() {
-        return postDate;
-    }
-
-    public void setPostDate(String postDate) {
-        this.postDate = postDate;
-    }
-
-    public String getPostContent() {
-        return postContent;
-    }
-
-    public void setPostContent(String postContent) {
-        this.postContent = postContent;
-    }
 
 }

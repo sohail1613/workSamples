@@ -46,19 +46,25 @@ public class SecurityConfiguration {
         httpSecurity.addFilterBefore(this.jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
     }
 
-    @Bean
-    protected void configure(AuthenticationManagerBuilder auth) throws Exception{
-        auth.userDetailsService(this.customUserDetailService).passwordEncoder(passwordEncoder());
-    }
+//    @Bean
+//    protected void configure(AuthenticationManagerBuilder auth) throws Exception{
+//        auth.userDetailsService(this.customUserDetailService).passwordEncoder(passwordEncoder());
+//    }
 
     @Bean
     public PasswordEncoder passwordEncoder(){
         return new BCryptPasswordEncoder();
     }
-    
+
     @Bean
-//    @Override
-    public AuthenticationManager authenticationManagerBean() throws Exception{
+    public void configure(AuthenticationManagerBuilder authenticationManagerBuilder) throws Exception {
+        authenticationManagerBuilder.userDetailsService(this.customUserDetailService).passwordEncoder(passwordEncoder());
+    }
+
+    @Bean
+    @Override
+    public AuthenticationManager authenticationManagerBean() throws Exception {
         return super.authenticationManagerBean();
     }
+
 }

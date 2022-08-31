@@ -1,26 +1,18 @@
 package com.chatting.SocialMedia.entity;
 
-import javax.persistence.ManyToOne;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
+@Getter
+@Setter
+@NoArgsConstructor
 public class LikedComment {
     @ManyToOne
     private User user;
     @ManyToOne
     private Comment comment;
 
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
-    }
-
-    public Comment getComment() {
-        return comment;
-    }
-
-    public void setComment(Comment comment) {
-        this.comment = comment;
-    }
 }

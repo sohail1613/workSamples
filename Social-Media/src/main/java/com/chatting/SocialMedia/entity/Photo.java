@@ -1,34 +1,21 @@
 package com.chatting.SocialMedia.entity;
 
-import javax.persistence.ManyToOne;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+import javax.persistence.*;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@Entity
 public class Photo {
+    @Id
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Integer photoId;
     private String imageContent;
     @ManyToOne
     private Post post;
 
-    public Integer getPhotoId() {
-        return photoId;
-    }
-
-    public void setPhotoId(Integer photoId) {
-        this.photoId = photoId;
-    }
-
-    public String getImageContent() {
-        return imageContent;
-    }
-
-    public void setImageContent(String imageContent) {
-        this.imageContent = imageContent;
-    }
-
-    public Post getPost() {
-        return post;
-    }
-
-    public void setPost(Post post) {
-        this.post = post;
-    }
 }

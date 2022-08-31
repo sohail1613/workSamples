@@ -1,21 +1,41 @@
 package com.chatting.SocialMedia.entity;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
+
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 import static javax.persistence.FetchType.LAZY;
 
-public class User {
+@Getter
+@Setter
+@NoArgsConstructor
+@Entity
+@Table(name = "users")
+public class User implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long userId;
+    @Column(name = "user_name", nullable = false, length = 100)
     private String userName;
+    @Column(name = "user_address")
     private String userAddress;
+    @Column(name = "User_email")
     private String userEmail;
+    @Column(name = "user_telephone")
     private Integer userTelephone;
+    @Column(name = "DOB")
     private String userDob;
+    @Column(name = "Gender")
     private String userGender;
+    @Column(name = "password")
+    private String password;
 
 
     //relationship implementation
@@ -24,61 +44,47 @@ public class User {
     @OneToMany
     private List<PageLikes> pageLikes = new ArrayList<>();
 
-    //getters and setters
-    public Long getUserId() {
-        return userId;
+    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JoinTable(name = "user_role", joinColumns=@JoinColumn(name = "user", referencedColumnName = "id"),
+            inverseJoinColumns = @JoinColumn(name = "role", referencedColumnName = "id"))
+    private Set<Role> roles = new HashSet<>();
+
+
+
+    @Override
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+        List<SimpleGrantedAuthority> grantedAuthorities = this.roles.stream().map(
+                role -> new SimpleGrantedAuthority(role.getRoleName())).collect(Collectors.toList());
+        return grantedAuthorities;
     }
 
-    public void setUserId(Long userId) {
-        this.userId = userId;
+    @Override
+    public String getPassword() {
+        return this.password;
     }
 
-    public String getUserName() {
-        return userName;
+    @Override
+    public String getUsername() {
+        return this.userEmail;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    @Override
+    public boolean isAccountNonExpired() {
+        return this.isAccountNonLocked();
     }
 
-    public String getUserAddress() {
-        return userAddress;
+    @Override
+    public boolean isAccountNonLocked() {
+        return true;
     }
 
-    public void setUserAddress(String userAddress) {
-        this.userAddress = userAddress;
+    @Override
+    public boolean isCredentialsNonExpired() {
+        return true;
     }
 
-    public String getUserEmail() {
-        return userEmail;
+    @Override
+    public boolean isEnabled() {
+        return this.isEnabled();
     }
-
-    public void setUserEmail(String userEmail) {
-        this.userEmail = userEmail;
-    }
-
-    public int getUserTelephone() {
-        return userTelephone;
-    }
-
-    public void setUserTelephone(Integer userTelephone) {
-        this.userTelephone = userTelephone;
-    }
-
-    public String getUserDob() {
-        return userDob;
-    }
-
-    public void setUserDob(String userDob) {
-        this.userDob = userDob;
-    }
-
-    public String getUserGender() {
-        return userGender;
-    }
-
-    public void setUserGender(String userGender) {
-        this.userGender = userGender;
-    }
-
 }
