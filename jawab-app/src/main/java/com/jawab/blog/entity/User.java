@@ -8,6 +8,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -25,6 +26,7 @@ public class User implements UserDetails {
     @Column(name = "user_name", nullable = false, length=100)
     private String name;
     @Column(name ="email ")
+    @NotEmpty(message = "Email cannot be empty")
     private String email;
     @Column(name = "password")
     private String password;
@@ -43,9 +45,9 @@ public class User implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        List<SimpleGrantedAuthority> authories = this.roles.stream().map(
+        List<SimpleGrantedAuthority> authorise = this.roles.stream().map(
                 (role -> new SimpleGrantedAuthority(role.getName()))).collect(Collectors.toList());
-        return authories;
+        return authorise;
     }
 
     @Override
