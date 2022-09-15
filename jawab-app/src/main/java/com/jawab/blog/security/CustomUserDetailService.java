@@ -3,12 +3,11 @@ package com.jawab.blog.security;
 import com.jawab.blog.entity.User;
 import com.jawab.blog.exceptions.ResourceNotFoundException;
 import com.jawab.blog.repositories.UserRepo;
-import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Component;
 
 
 public class CustomUserDetailService implements UserDetailsService {
