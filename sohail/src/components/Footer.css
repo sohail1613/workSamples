@@ -1,0 +1,126 @@
+.footer-section {
+  height: 300px;
+  background-color: rgb(83, 78, 78);
+  padding: 0;
+  margin-top: 0;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-top: 15px;
+  border-bottom: 1px solid white;
+}
+.icons {
+  background-color: rgba(245, 161, 6, 0.863);
+  align-items: center;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.call {
+  color: white;
+}
+
+.mail {
+  color: white;
+}
+.location {
+  color: white;
+}
+
+.company {
+  margin-left: 150px;
+
+  width: 25%;
+  /* height: 150px; */
+}
+.footer-content {
+  justify-content: space-between;
+}
+.footer-logo img {
+  max-width: 280px;
+}
+.footer-text {
+  max-width: 280px;
+}
+.usefull-links {
+  /* height: 275px; */
+  margin-top: 25px;
+}
+.about li {
+  overflow: hidden;
+}
+.about a {
+  color: rgb(26, 24, 24);
+  text-decoration: none;
+  text-align: left;
+}
+.about h3 {
+  margin-left: 5px;
+  text-align: left;
+  padding-top: 5px;
+}
+.about {
+  margin-right: 10px;
+}
+.msb {
+  margin-right: 150px;
+}
+.msb a {
+  text-decoration: none;
+  color: rgb(26, 24, 24);
+}
+.msb li {
+  overflow: hidden;
+}
+
+.social-contact {
+  background-color: darkgray;
+  height: 70px;
+  text-align: center;
+  justify-content: space-between center;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  /* height: 55px; */
+  gap: 1rem;
+  margin-left: 44%;
+  /* padding-top: 15px; */
+}
+.social-contact a {
+  color: black;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+/* .social-contact a :hover{
+  color: white;
+  background-color: rgb(54, 49, 49);
+  width: 35px;
+  height: 35px;
+} */
+
+.up-arrow {
+  background-color: rgb(141, 137, 137);
+  width: 30px;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+}
+.up-arrow :hover{
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+}
+.copyright {
+  padding-bottom: 15px;
+  overflow: hidden;
+  justify-content: baseline;
+}

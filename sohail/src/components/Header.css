@@ -1,0 +1,25 @@
+.container-header{
+    background-color: rgb(141, 161, 141);
+    display: flex;
+}
+.logo{
+    padding: 5px;
+    margin-left: 5px;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 17%;
+    gap: 2rem;
+}
+
+.menu > a {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 10px;
+    flex-wrap: nowrap;
+    color: black;
+}
+
