@@ -5,7 +5,7 @@ const Section = () => {
     <>
       <div>
         <div className="afc-fullscreen-menu afc-fullscreen-menu--style-3">
-          <div className="afc-fullscreen-menu__content">
+          {/* <div className="afc-fullscreen-menu__content">
             <ul className="afc-fullscreen-menu__content__menu afc-menu">
               <li
                 className="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-1497"
@@ -118,7 +118,7 @@ const Section = () => {
                 </ul>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div>
             <div className="afc-fullscreen-menu__logo afc-fullscreen-menu__logo--style-3">
               <button className="afc-button--toggle--menu js--toggle--menu afc-close-btn" />
@@ -706,7 +706,8 @@ const Section = () => {
                                                             <div className="afc-portfolio-item__cover">
                                                               <img
                                                                 decoding="async"
-                                                                src="./Personal – 3 – Mitra_files/New-Project-10-600x600.jpg"
+                                                                // src="./Personal – 3 – Mitra_files/New-Project-10-600x600.jpg"
+                                                                src="./Personal – 3 – Mitra_files/grain_sampler.jpeg"
                                                                 alt="image"
                                                               />
                                                             </div>
@@ -738,7 +739,8 @@ const Section = () => {
                                                             <div className="afc-portfolio-item__cover">
                                                               <img
                                                                 decoding="async"
-                                                                src="./Personal – 3 – Mitra_files/New-Project-11-600x600.jpg"
+                                                                // src="./Personal – 3 – Mitra_files/New-Project-11-600x600.jpg"
+                                                                src="./Personal – 3 – Mitra_files/weight_machine.avif"
                                                                 alt="Online Music Player App"
                                                               />
                                                             </div>
@@ -770,7 +772,8 @@ const Section = () => {
                                                             <div className="afc-portfolio-item__cover">
                                                               <img
                                                                 decoding="async"
-                                                                src="./Personal – 3 – Mitra_files/New-Project-12-600x600.jpg"
+                                                                // src="./Personal – 3 – Mitra_files/New-Project-12-600x600.jpg"
+                                                                src="./Personal – 3 – Mitra_files/electronic_tool.jpeg"
                                                                 alt="Minimal Design Artwork"
                                                               />
                                                             </div>
@@ -802,7 +805,8 @@ const Section = () => {
                                                             <div className="afc-portfolio-item__cover">
                                                               <img
                                                                 decoding="async"
-                                                                src="./Personal – 3 – Mitra_files/New-Project-13-600x600.jpg"
+                                                                // src="./Personal – 3 – Mitra_files/New-Project-13-600x600.jpg"
+                                                                src="./Personal – 3 – Mitra_files/msb_1.avif"
                                                                 alt="Consumer Electronics"
                                                               />
                                                             </div>
@@ -834,7 +838,8 @@ const Section = () => {
                                                             <div className="afc-portfolio-item__cover">
                                                               <img
                                                                 decoding="async"
-                                                                src="./Personal – 3 – Mitra_files/New-Project-14-600x600.jpg"
+                                                                // src="./Personal – 3 – Mitra_files/New-Project-14-600x600.jpg"
+                                                                src="./Personal – 3 – Mitra_files/msb_gab_301.avif"
                                                                 alt="Home Appliances"
                                                               />
                                                             </div>
@@ -1597,7 +1602,7 @@ const Section = () => {
                                               <div>
                                                 <div className="afc-creative-tag afc-creative-tag--style-1">
                                                   <span className="afc-creative-tag__text">
-                                                    Services
+                                                    {/* Services */}
                                                   </span>
                                                 </div>
                                               </div>
@@ -1621,8 +1626,8 @@ const Section = () => {
                                                 <div>
                                                   <h2 className="afc-heading__title default">
                                                     <span className="afc-heading__title__text afc-heading__title__main">
-                                                      Special Quotes from <br />
-                                                      our customer about us.
+                                                      {/* Special Quotes from <br /> */}
+                                                      Our Services.
                                                     </span>
                                                   </h2>
                                                 </div>
@@ -1949,10 +1954,10 @@ const Section = () => {
                                                 <div className="afc-infobox-img__head" />
                                                 <div className="afc-infobox-img__body">
                                                   <h4 className="afc-infobox-img__title">
-                                                    360+
+                                                    100+
                                                   </h4>
                                                   <p className="afc-infobox-img__description">
-                                                    Happy Customer
+                                                    Happy  and Satisfied Customers
                                                   </p>
                                                 </div>
                                               </div>
@@ -1986,7 +1991,7 @@ const Section = () => {
                                                 <div className="afc-infobox-img__head" />
                                                 <div className="afc-infobox-img__body">
                                                   <h4 className="afc-infobox-img__title">
-                                                    14k
+                                                    1000
                                                   </h4>
                                                   <p className="afc-infobox-img__description">
                                                     Global Customer
@@ -2008,7 +2013,7 @@ const Section = () => {
                     </div>
                   </section>
                   {/* work section */}
-                  <section
+                  {/* <section
                     className="elementor-section elementor-top-section elementor-element elementor-element-2f984e0 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                     data-id="2f984e0"
                     data-element_type="section"
@@ -2110,7 +2115,7 @@ const Section = () => {
                         </div>
                       </div>
                     </div>
-                  </section>
+                  </section> */}
                 </div>
               </div>
             </div>

@@ -1,9 +1,10 @@
 import React from "react";
 import "./App.css";
-import Contact from "./components/Contact";
+import Contact from "./components/contact/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Section from "./components/Section";
+import Services from "./components/services/Services";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Header />
       <Section />
       {/* <Contact /> */}
-      <Footer />
+      {/* <Services /> */}
+      {/* <Footer /> */}
     </>
   );
 }
