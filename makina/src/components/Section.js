@@ -593,10 +593,10 @@ const Section = () => {
                                                         <div className="afc-infobox-img__head" />
                                                         <div className="afc-infobox-img__body">
                                                           <h4 className="afc-infobox-img__title">
-                                                            12k
+                                                            120
                                                           </h4>
                                                           <p className="afc-infobox-img__description">
-                                                            Finished Project
+                                                            Delivered Project
                                                           </p>
                                                         </div>
                                                       </div>
@@ -606,7 +606,7 @@ const Section = () => {
                                                         <div className="afc-infobox-img__head" />
                                                         <div className="afc-infobox-img__body">
                                                           <h4 className="afc-infobox-img__title">
-                                                            600+
+                                                            120+
                                                           </h4>
                                                           <p className="afc-infobox-img__description">
                                                             Finished Project
@@ -707,18 +707,17 @@ const Section = () => {
                                                               <img
                                                                 decoding="async"
                                                                 // src="./Personal – 3 – Mitra_files/New-Project-10-600x600.jpg"
-                                                                src="./Personal – 3 – Mitra_files/grain_sampler.jpeg"
+                                                                src="./Personal – 3 – Mitra_files/My project.jpg"
                                                                 alt="image"
                                                               />
                                                             </div>
                                                             <div className="afc-portfolio-item__content">
                                                               <h5 className="afc-portfolio-item__title">
-                                                                Mitra Board Game
-                                                                v2.0
+                                                                Grain Sampler
                                                               </h5>
                                                               <div className="afc-categories afc-categories--style-1">
                                                                 <span className="afc-portfolio-item__category afc-categories__item">
-                                                                  Game
+                                                                  Wheat
                                                                 </span>
                                                               </div>
                                                             </div>
@@ -741,17 +740,16 @@ const Section = () => {
                                                                 decoding="async"
                                                                 // src="./Personal – 3 – Mitra_files/New-Project-11-600x600.jpg"
                                                                 src="./Personal – 3 – Mitra_files/weight_machine.avif"
-                                                                alt="Online Music Player App"
+                                                                alt= "Weight machine"
                                                               />
                                                             </div>
                                                             <div className="afc-portfolio-item__content">
                                                               <h5 className="afc-portfolio-item__title">
-                                                                Online Music
-                                                                Player App
+                                                                Electronic Weight Machine
                                                               </h5>
                                                               <div className="afc-categories afc-categories--style-1">
                                                                 <span className="afc-portfolio-item__category afc-categories__item">
-                                                                  Audio
+                                                                  ELEctric
                                                                 </span>
                                                               </div>
                                                             </div>
@@ -773,18 +771,17 @@ const Section = () => {
                                                               <img
                                                                 decoding="async"
                                                                 // src="./Personal – 3 – Mitra_files/New-Project-12-600x600.jpg"
-                                                                src="./Personal – 3 – Mitra_files/electronic_tool.jpeg"
+                                                                src="./Personal – 3 – Mitra_files/My project-1.png"
                                                                 alt="Minimal Design Artwork"
                                                               />
                                                             </div>
                                                             <div className="afc-portfolio-item__content">
                                                               <h5 className="afc-portfolio-item__title">
-                                                                Minimal Design
-                                                                Artwork
+                                                               Cotton Carry Bag
                                                               </h5>
                                                               <div className="afc-categories afc-categories--style-1">
                                                                 <span className="afc-portfolio-item__category afc-categories__item">
-                                                                  Design
+                                                                  Textile
                                                                 </span>
                                                               </div>
                                                             </div>
@@ -806,7 +803,7 @@ const Section = () => {
                                                               <img
                                                                 decoding="async"
                                                                 // src="./Personal – 3 – Mitra_files/New-Project-13-600x600.jpg"
-                                                                src="./Personal – 3 – Mitra_files/msb_1.avif"
+                                                                src="./Personal – 3 – Mitra_files/My project-2.png"
                                                                 alt="Consumer Electronics"
                                                               />
                                                             </div>

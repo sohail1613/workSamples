@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../assets/logos.avif";
 
 const Header = () => {
   return (
@@ -16,7 +17,7 @@ const Header = () => {
                   <span />
                   <span />
                 </button>
-                <a href="#">
+                <a href="">
                   <span>Makina</span>
                 </a>
               </div>
@@ -60,26 +61,20 @@ const Header = () => {
                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1498"
                     data-menu-anchor
                   >
-                    <a href="#">
-                      About Us
-                    </a>
+                    <a href="/about">About Us</a>
                     <ul className="sub-menu">
                       <li
                         id="nav-menu-item-2158"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2158"
                       >
-                        <a href="#">
-                          About – Agency
-                        </a>
+                        <a href="/about">About MSB</a>
                       </li>
-                      <li
+                      {/* <li
                         id="nav-menu-item-2159"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2159"
                       >
-                        <a href="#">
-                          About – Personal
-                        </a>
-                      </li>
+                        <a href="#">About – Personal</a>
+                      </li> */}
                     </ul>
                   </li>
                   <li
@@ -87,7 +82,7 @@ const Header = () => {
                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1499"
                     data-menu-anchor
                   >
-                    <a href="http://wp.afracode.com/mitra/personal-3/#">
+                    <a href="#">
                       Products
                     </a>
                     <ul className="sub-menu">
@@ -95,18 +90,18 @@ const Header = () => {
                         id="nav-menu-item-2155"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2155"
                       >
-                        <a href="http://wp.afracode.com/mitra/portfolio-metro-style-1/">
-                          Metro Style-1
+                        <a href="/products">
+                          All Products
                         </a>
                       </li>
-                      <li
+                      {/* <li
                         id="nav-menu-item-2154"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2154"
                       >
                         <a href="http://wp.afracode.com/mitra/portfolio-3-columns/">
                           3-columns
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </li>
                   <li
@@ -114,7 +109,7 @@ const Header = () => {
                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1500"
                     data-menu-anchor
                   >
-                    <a href="http://wp.afracode.com/mitra/personal-3/#">
+                    <a href="#">
                       Services
                     </a>
                     <ul className="sub-menu">
@@ -122,16 +117,24 @@ const Header = () => {
                         id="nav-menu-item-2160"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2160"
                       >
-                        <a href="http://wp.afracode.com/mitra/services-agency/">
-                          Services – Agency
+                        <a href="#">
+                          Makina
                         </a>
                       </li>
                       <li
                         id="nav-menu-item-2161"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2161"
                       >
-                        <a href="http://wp.afracode.com/mitra/services-personal/">
-                          Services – Personal
+                        <a href="#">
+                          Electric
+                        </a>
+                      </li>
+                      <li
+                        id="nav-menu-item-2161"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2161"
+                      >
+                        <a href="#">
+                          Nakliya
                         </a>
                       </li>
                     </ul>
@@ -141,14 +144,16 @@ const Header = () => {
                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1501"
                     data-menu-anchor
                   >
-                    <a href="http://wp.afracode.com/mitra/personal-3/#">UpComing</a>
+                    <a href="#">
+                    Announcement
+                    </a>
                     <ul className="sub-menu">
                       <li
                         id="nav-menu-item-3454"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3454"
                       >
-                        <a href="http://wp.afracode.com/mitra/blog-3-columns/">
-                          Blog – 3 Columns
+                        <a href="#">
+                         New Products
                         </a>
                       </li>
                       <li
@@ -156,7 +161,7 @@ const Header = () => {
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3453"
                       >
                         <a href="http://wp.afracode.com/mitra/blog-chess-style/">
-                          Blog – Chess Style
+                          News
                         </a>
                       </li>
                     </ul>
@@ -166,10 +171,10 @@ const Header = () => {
                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1502"
                     data-menu-anchor
                   >
-                    <a href="http://wp.afracode.com/mitra/personal-3/#">
+                    <a href="/contact">
                       Contacts
                     </a>
-                    <ul className="sub-menu">
+                    {/* <ul className="sub-menu">
                       <li
                         id="nav-menu-item-2183"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2183"
@@ -178,7 +183,7 @@ const Header = () => {
                           Contacts – Agency
                         </a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                 </ul>
               </nav>
@@ -190,8 +195,8 @@ const Header = () => {
                       type="button"
                     >
                       <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                        // xmlns="http://www.w3.org/2000/svg"
+                        // xmlnsXlink="http://www.w3.org/1999/xlink"
                         width={17}
                         height={17}
                         viewBox="0 0 17 17"

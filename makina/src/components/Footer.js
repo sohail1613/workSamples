@@ -1,43 +1,122 @@
-import React from 'react';
-import './Footer.css';
-
+import React from "react";
+import "./Footer.css";
+import Logo from "../assets/logos.avif";
 const Footer = () => {
   return (
     <>
-        <footer className="afc-footer afc-footer--style-1 afc-footer--dark">
-  <div className="container">
-    <div className="row justify-content-between">
-      <div className="col-12 col-lg-6">
-        <div className="afc-footer__copyright">
-          <p>© 2022 Copyright. All rights reserved.</p>
+      <div>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+
+        {/*  FOOTER START */}
+        <div className="footer">
+          <div className="inner-footer">
+            {/*  for company name and description */}
+            <div className="footer-items">
+              <a href="">
+                <img src={Logo} alt="Logo"/>
+              </a>
+              {/* <h1>MSB Makina</h1> */}
+              {/* <img src={Logo}/> */}
+              <p>
+                We privide high qaulity machines and our <br />
+                customer satisfaction is priority.
+              </p>
+            </div>
+            {/*  for quick links  */}
+            <div className="footer-items">
+              <h3>Quick Links</h3>
+              <div className="border1" /> {/*for the underline */}
+              <ul>
+                <a href="#">
+                  <li>Home</li>
+                </a>
+                <a href="#">
+                  <li>Search</li>
+                </a>
+                <a href="/contact">
+                  <li>Contact</li>
+                </a>
+                <a href="/about">
+                  <li>About</li>
+                </a>
+              </ul>
+            </div>
+            {/*  for some other links */}
+            <div className="footer-items">
+              <h3>Services</h3>
+              <div className="border1" /> {/*for the underline */}
+              <ul>
+                <a href="#">
+                  <li>Grain Sampler</li>
+                </a>
+                <a href="#">
+                  <li>ELectronics</li>
+                </a>
+                <a href="#">
+                  <li>Transportation</li>
+                </a>
+                <a href="#">
+                  <li>Cotton Bags</li>
+                </a>
+              </ul>
+            </div>
+            {/*  for contact us info */}
+            <div className="footer-items">
+              <h3>Contact us</h3>
+              <div className="border1" />
+              <ul>
+                <li>
+                  <i className="fa fa-phone" aria-hidden="true" />
+                  +90-542 681 78 67
+                </li>
+                <li>
+                  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=msbteknikelektrik@gmail.com">
+                    <i className="fa fa-envelope" aria-hidden="true" />
+                  </a>
+                  msbteknikelektrik@gmail.com
+                </li>
+                <li>
+                  <a href="https://maps.app.goo.gl/jzty16BDVQ7i2sCC8">
+                    <i className="fa fa-map-marker" aria-hidden="true" />
+                  </a>
+                  Çubuk/Ankara
+                </li>
+                <li>
+                  <a href="https://api.whatsapp.com/send/?phone=905322872185&text&type=phone_number&app_absent=0">
+                    <i className="fa fa-whatsapp" aria-hidden="true" />
+                  </a>
+                  Quick Enuiry
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/msbelektrikmakina/">
+                    <i className="fa fa-instagram" aria-hidden="true" />
+                  </a>
+                  Follow on Instagram
+                </li>
+              </ul>
+              {/*   for social links */}
+              <div className="social-media">
+                <a href="#">
+                  <i className="fab fa-instagram" />
+                </a>
+                <a href="#">
+                  <i className="fab fa-facebook" />
+                </a>
+                <a href="#">
+                  <i className="fab fa-google-plus-square" />
+                </a>
+              </div>
+            </div>
+          </div>
+          {/*   Footer Bottom start  */}
+          <div className="footer-bottom">Copyright © Msb Makina 2022.</div>
         </div>
       </div>
-      <div className="col-12 col-lg-6">
-        <nav>
-          <ul className="afc-footer__menu d-flex justify-content-end">
-            <li id="nav-menu-item-3458" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3458">
-              <a href="http://wp.afracode.com/mitra/personal-1/">Home</a>
-            </li>
-            <li id="nav-menu-item-3455" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3455">
-              <a href="http://wp.afracode.com/mitra/about-me-personal/">About Us</a>
-            </li>
-            <li id="nav-menu-item-3459" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3459">
-              <a href="http://wp.afracode.com/mitra/services-personal/">Services</a>
-            </li>
-            <li id="nav-menu-item-3456" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3456">
-              <a href="http://wp.afracode.com/mitra/blog-chess-style/">Latest Posts</a>
-            </li>
-            <li id="nav-menu-item-3457" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3457">
-              <a href="http://wp.afracode.com/mitra/contacts-agency/">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </div>
-</footer> 
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
