@@ -1,0 +1,14 @@
+.makina {
+  /* background-color: rgb(12, 14, 14); */
+  /* height: 550px; */
+  margin-top: 125px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: center;
+}
+.image-section {
+  width: 80%;
+  justify-content: center;
+  text-align: center;
+}

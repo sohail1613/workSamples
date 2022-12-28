@@ -3,9 +3,12 @@ import Footer from "../Footer";
 import Header from "../Header";
 import "./AllProducts.css";
 import GrainSampler from "../../assets/grainSampler.jpg";
-import CottonBag from "../../assets/cottonBag.png";
+import CottonBag from "../../assets/cottonBag.jpg";
 import WeightMachine from "../../assets/weight_machine.avif";
-import Electric from "../../assets/electric.png";
+import Electric from "../../assets/electric.jpg";
+import Nilemalitre from "../../assets/gab_315.jpg"
+import Bölücü from '../../assets/gab_310.jpg';
+import Hektolitre from '../../assets/gab_300.jpg';
 
 const AllProducts = () => {
   return (
@@ -137,7 +140,7 @@ const AllProducts = () => {
           <div className="row">
             <div className="col-lg-6">
               <img
-                src={Electric}
+                src={Nilemalitre}
                 alt="about"
                 className="img-fluid"
                 width="100%"
@@ -171,7 +174,7 @@ const AllProducts = () => {
           <div className="row">
             <div className="col-lg-6">
               <img
-                src={Electric}
+                src={Bölücü}
                 alt="about"
                 className="img-fluid"
                 width="100%"
@@ -202,7 +205,7 @@ const AllProducts = () => {
           <div className="row">
             <div className="col-lg-6">
               <img
-                src={Electric}
+                src={Hektolitre}
                 alt="about"
                 className="img-fluid"
                 width="100%"

@@ -30,7 +30,7 @@ const Footer = () => {
               <h3>Quick Links</h3>
               <div className="border1" /> {/*for the underline */}
               <ul>
-                <a href="#">
+                <a href="/">
                   <li>Home</li>
                 </a>
                 <a href="#">
@@ -49,17 +49,17 @@ const Footer = () => {
               <h3>Services</h3>
               <div className="border1" /> {/*for the underline */}
               <ul>
-                <a href="#">
+                <a href="/products">
                   <li>Grain Sampler</li>
                 </a>
                 <a href="#">
-                  <li>ELectronics</li>
+                  <li>Elektrik</li>
                 </a>
                 <a href="#">
-                  <li>Transportation</li>
+                  <li>Nakliye</li>
                 </a>
-                <a href="#">
-                  <li>Cotton Bags</li>
+                <a href="/products">
+                  <li>Makine</li>
                 </a>
               </ul>
             </div>

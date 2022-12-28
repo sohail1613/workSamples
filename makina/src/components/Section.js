@@ -5,120 +5,6 @@ const Section = () => {
     <>
       <div>
         <div className="afc-fullscreen-menu afc-fullscreen-menu--style-3">
-          {/* <div className="afc-fullscreen-menu__content">
-            <ul className="afc-fullscreen-menu__content__menu afc-menu">
-              <li
-                className="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-1497"
-                data-menu-anchor
-              >
-                <a href="http://wp.afracode.com/mitra/personal-3/#">Home</a>
-                <ul className="sub-menu">
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2165">
-                    <a href="http://wp.afracode.com/mitra/personal-1/">
-                      Personal – 1
-                    </a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2164">
-                    <a href="http://wp.afracode.com/mitra/personal-2/">
-                      Personal – 2
-                    </a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-438 current_page_item menu-item-2163">
-                    <a href="http://wp.afracode.com/mitra/personal-3/">
-                      Personal – 3
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li
-                className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1498"
-                data-menu-anchor
-              >
-                <a href="http://wp.afracode.com/mitra/personal-3/#">About Us</a>
-                <ul className="sub-menu">
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2158">
-                    <a href="http://wp.afracode.com/mitra/about-us-agency/">
-                      About – Agency
-                    </a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2159">
-                    <a href="http://wp.afracode.com/mitra/about-me-personal/">
-                      About – Personal
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li
-                className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1499"
-                data-menu-anchor
-              >
-                <a href="http://wp.afracode.com/mitra/personal-3/#">
-                  Portfolio
-                </a>
-                <ul className="sub-menu">
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2155">
-                    <a href="http://wp.afracode.com/mitra/portfolio-metro-style-1/">
-                      Metro Style-1
-                    </a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2154">
-                    <a href="http://wp.afracode.com/mitra/portfolio-3-columns/">
-                      3-columns
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li
-                className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1500"
-                data-menu-anchor
-              >
-                <a href="http://wp.afracode.com/mitra/personal-3/#">Services</a>
-                <ul className="sub-menu">
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2160">
-                    <a href="http://wp.afracode.com/mitra/services-agency/">
-                      Services – Agency
-                    </a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2161">
-                    <a href="http://wp.afracode.com/mitra/services-personal/">
-                      Services – Personal
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li
-                className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1501"
-                data-menu-anchor
-              >
-                <a href="http://wp.afracode.com/mitra/personal-3/#">Blog</a>
-                <ul className="sub-menu">
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3454">
-                    <a href="http://wp.afracode.com/mitra/blog-3-columns/">
-                      Blog – 3 Columns
-                    </a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3453">
-                    <a href="http://wp.afracode.com/mitra/blog-chess-style/">
-                      Blog – Chess Style
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li
-                className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1502"
-                data-menu-anchor
-              >
-                <a href="http://wp.afracode.com/mitra/personal-3/#">Contacts</a>
-                <ul className="sub-menu">
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2183">
-                    <a href="http://wp.afracode.com/mitra/contacts-agency/">
-                      Contacts – Agency
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div> */}
           <div>
             <div className="afc-fullscreen-menu__logo afc-fullscreen-menu__logo--style-3">
               <button className="afc-button--toggle--menu js--toggle--menu afc-close-btn" />
@@ -137,7 +23,7 @@ const Section = () => {
             <span />
           </button>
           <div className="container">
-            <form method="get" action="http://wp.afracode.com/mitra/">
+            <form method="get" action="#">
               <input
                 type="search"
                 defaultValue
@@ -183,223 +69,6 @@ const Section = () => {
                         >
                           <div className="elementor-column-wrap elementor-element-populated">
                             <div className="elementor-widget-wrap">
-                              {/* <section
-                                className="elementor-section elementor-inner-section elementor-element elementor-element-f303b4a elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                data-id="f303b4a"
-                                data-element_type="section"
-                              >
-                                <div className="elementor-container elementor-column-gap-default">
-                                  <div className="elementor-row">
-                                    <div
-                                      className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-8c4db65"
-                                      data-id="8c4db65"
-                                      data-element_type="column"
-                                    >
-                                      <div className="elementor-column-wrap elementor-element-populated">
-                                        <div className="elementor-widget-wrap">
-                                          <div
-                                            className="elementor-element elementor-element-857337c elementor-widget elementor-widget-afracode-heading-title"
-                                            data-id="857337c"
-                                            data-element_type="widget"
-                                            data-settings='{"afc_transform":"none","afc_animation_name":"none"}'
-                                            data-widget_type="afracode-heading-title.default"
-                                          >
-                                            <div className="elementor-widget-container">
-                                              <div className="afc-heading afc-heading--style-1">
-                                                <div>
-                                                  <h1 className="afc-heading__title default">
-                                                    <span className="afc-heading__title__text afc-heading__title__main">
-                                                      My name is
-                                                      <br />
-                                                      Aaron Smith.
-                                                    </span>
-                                                  </h1>
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div
-                                            className="elementor-element elementor-element-2c757ce e-grid-align-left elementor-hidden-tablet elementor-hidden-mobile elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons"
-                                            data-id="2c757ce"
-                                            data-element_type="widget"
-                                            data-settings='{"afc_transform":"none","afc_animation_name":"none"}'
-                                            data-widget_type="social-icons.default"
-                                          >
-                                            <div className="elementor-widget-container">
-                                              <div className="elementor-social-icons-wrapper elementor-grid">
-                                                <span className="elementor-grid-item">
-                                                  <a
-                                                    className="elementor-icon elementor-social-icon elementor-social-icon-dribbble elementor-repeater-item-5f9382f"
-                                                    href="http://wp.afracode.com/mitra/personal-3/#"
-                                                    target="_blank"
-                                                  >
-                                                    <span className="elementor-screen-only">
-                                                      Dribbble
-                                                    </span>
-                                                    <i className="fab fa-dribbble" />
-                                                  </a>
-                                                </span>
-                                                <span className="elementor-grid-item">
-                                                  <a
-                                                    className="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-5e7e264"
-                                                    href="http://wp.afracode.com/mitra/personal-3/#"
-                                                    target="_blank"
-                                                  >
-                                                    <span className="elementor-screen-only">
-                                                      Twitter
-                                                    </span>
-                                                    <i className="fab fa-twitter" />
-                                                  </a>
-                                                </span>
-                                                <span className="elementor-grid-item">
-                                                  <a
-                                                    className="elementor-icon elementor-social-icon elementor-social-icon-tumblr elementor-repeater-item-a5b2942"
-                                                    href="http://wp.afracode.com/mitra/personal-3/#"
-                                                    target="_blank"
-                                                  >
-                                                    <span className="elementor-screen-only">
-                                                      Tumblr
-                                                    </span>
-                                                    <i className="fab fa-tumblr" />
-                                                  </a>
-                                                </span>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div
-                                      className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-05e420f"
-                                      data-id="05e420f"
-                                      data-element_type="column"
-                                    >
-                                      <div className="elementor-column-wrap elementor-element-populated">
-                                        <div className="elementor-widget-wrap">
-                                          <div
-                                            className="elementor-element elementor-element-0be7b46 elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-afracode-creative-tag"
-                                            data-id="0be7b46"
-                                            data-element_type="widget"
-                                            data-settings='{"afc_transform":"none","afc_animation_name":"none"}'
-                                            data-widget_type="afracode-creative-tag.default"
-                                          >
-                                            <div className="elementor-widget-container">
-                                              <div>
-                                                <div className="afc-creative-tag afc-creative-tag--style-2">
-                                                  <span className="afc-creative-tag__text">
-                                                    This is me
-                                                  </span>
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div
-                                            className="elementor-element elementor-element-017c337 elementor-align-right elementor-tablet-align-left elementor-hidden-mobile elementor-widget elementor-widget-afracode-heading-title"
-                                            data-id="017c337"
-                                            data-element_type="widget"
-                                            data-settings='{"afc_transform":"none","afc_animation_name":"none"}'
-                                            data-widget_type="afracode-heading-title.default"
-                                          >
-                                            <div className="elementor-widget-container">
-                                              <div className="afc-heading afc-heading--style-1">
-                                                <div>
-                                                  <h4 className="afc-heading__title default">
-                                                    <span className="afc-heading__title__text afc-heading__title__main">
-                                                      Experience Developer and
-                                                      <br />
-                                                      Designer remotely from
-                                                      <br />
-                                                      untied states.
-                                                    </span>
-                                                  </h4>
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div
-                                            className="elementor-element elementor-element-5d305ba elementor-align-right elementor-tablet-align-left elementor-widget elementor-widget-afracode-button"
-                                            data-id="5d305ba"
-                                            data-element_type="widget"
-                                            data-settings='{"afc_transform":"none","afc_animation_name":"none"}'
-                                            data-widget_type="afracode-button.default"
-                                          >
-                                            <div className="elementor-widget-container">
-                                              <a
-                                                role="button"
-                                                className="afc-button afc-button--sm afc-button--style-1 afc-button--dark"
-                                                href="http://wp.afracode.com/mitra/personal-3/#"
-                                                data-hover="Download CV"
-                                              >
-                                                <span className="afc-button__text">
-                                                  Download CV
-                                                </span>
-                                              </a>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </section> */}
-                              {/* <div
-                                data-parallax='{"y":90,"scale":1}'
-                                className="elementor-element elementor-element-bdff85d elementor-absolute elementor-widget elementor-widget-image"
-                                data-id="bdff85d"
-                                data-element_type="widget"
-                                data-settings='{"_position":"absolute","afc_transform":"none","afc_animation_name":"none"}'
-                                data-widget_type="image.default"
-                                style={{
-                                  "-webkit-transform":
-                                    "translate3d(0px, 0.029px, 0px)                                rotateX(0deg) rotateY(0deg) rotateZ(0deg)                                scaleX(1) scaleY(1) scaleZ(1)",
-                                  "-ms-transform":
-                                    "translate3d(0px, 0.029px, 0px)                                rotateX(0deg) rotateY(0deg) rotateZ(0deg)                                scaleX(1) scaleY(1) scaleZ(1)",
-                                  transform:
-                                    "translate3d(0px, 0.029px, 0px)                                rotateX(0deg) rotateY(0deg) rotateZ(0deg)                                scaleX(1) scaleY(1) scaleZ(1)",
-                                }}
-                              > */}
-                                {/* <div className="elementor-widget-container">
-                                  <div className="elementor-image">
-                                    <img
-                                      decoding="async"
-                                      width={600}
-                                      height={600}
-                                      src="./Personal – 3 – Mitra_files/business-25-600x600.jpg"
-                                      className="attachment-mitra-600x600 size-mitra-600x600"
-                                      alt="image"
-                                      loading="lazy"
-                                      srcSet="
-                              http://wp.afracode.com/mitra/wp-content/uploads/2022/01/business-25-600x600.jpg 600w,
-                              http://wp.afracode.com/mitra/wp-content/uploads/2022/01/business-25-300x300.jpg 300w,
-                              http://wp.afracode.com/mitra/wp-content/uploads/2022/01/business-25-150x150.jpg 150w
-                            "
-                                      sizes="(max-width: 600px) 100vw, 600px"
-                                    />
-                                  </div>
-                                </div>
-                              </div> */}
-                              {/* <div
-                                data-parallax='{"x":60,"y":60,"scale":1}'
-                                className="elementor-element elementor-element-1d78f89 elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-afracode-shape"
-                                data-id="1d78f89"
-                                data-element_type="widget"
-                                data-settings='{"_position":"absolute","afc_transform":"none","afc_animation_name":"none"}'
-                                data-widget_type="afracode-shape.default"
-                                style={{
-                                  "-webkit-transform":
-                                    "translate3d(                                  0.029px,                                  0.029px,                                  0px                                )                                rotateX(0deg) rotateY(0deg) rotateZ(0deg)                                scaleX(1) scaleY(1) scaleZ(1)",
-                                  "-ms-transform":
-                                    "translate3d(0.029px, 0.029px, 0px)                                rotateX(0deg) rotateY(0deg) rotateZ(0deg)                                scaleX(1) scaleY(1) scaleZ(1)",
-                                  transform:
-                                    "translate3d(0.029px, 0.029px, 0px)                                rotateX(0deg) rotateY(0deg) rotateZ(0deg)                                scaleX(1) scaleY(1) scaleZ(1)",
-                                }}
-                              >
-                                <div className="elementor-widget-container">
-                                  <div className="afc-shape">
-                                    <div className="afc-shape__element afc-shape__element--circle" />
-                                  </div>
-                                </div>
-                              </div> */}
                               <div
                                 data-parallax="[]"
                                 className="elementor-element elementor-element-584176c elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-afracode-shape"
@@ -673,26 +342,24 @@ const Section = () => {
                                                             <div className="afc-portfolio-item__cover">
                                                               <img
                                                                 decoding="async"
-                                                                src="./Personal – 3 – Mitra_files/probe7.jpeg"
+                                                                src="./Personal – 3 – Mitra_files/My project.jpg"
                                                                 alt="image"
                                                               />
                                                             </div>
                                                             <div className="afc-portfolio-item__content">
                                                               <h5 className="afc-portfolio-item__title">
-                                                                Social Media
-                                                                Branding
-                                                                Spotlight
+                                                                Grain Sampler
                                                               </h5>
                                                               <div className="afc-categories afc-categories--style-1">
                                                                 <span className="afc-portfolio-item__category afc-categories__item">
-                                                                  Game
+                                                                  Probe
                                                                 </span>
                                                               </div>
                                                             </div>
                                                           </div>
                                                           <a
                                                             className="afc-portfolio-item__link"
-                                                            href="http://wp.afracode.com/mitra/portfolio/social-media-branding-spotlight/"
+                                                            href="/products"
                                                             aria-hidden="true"
                                                           />
                                                         </div>
@@ -707,7 +374,7 @@ const Section = () => {
                                                               <img
                                                                 decoding="async"
                                                                 // src="./Personal – 3 – Mitra_files/New-Project-10-600x600.jpg"
-                                                                src="./Personal – 3 – Mitra_files/My project.jpg"
+                                                                src="./Personal – 3 – Mitra_files/gab_315.jpg"
                                                                 alt="image"
                                                               />
                                                             </div>
@@ -724,7 +391,7 @@ const Section = () => {
                                                           </div>
                                                           <a
                                                             className="afc-portfolio-item__link"
-                                                            href="http://wp.afracode.com/mitra/portfolio/mitra-board-game-v2-0/"
+                                                            href="/products"
                                                             aria-hidden="true"
                                                           />
                                                         </div>
@@ -740,12 +407,13 @@ const Section = () => {
                                                                 decoding="async"
                                                                 // src="./Personal – 3 – Mitra_files/New-Project-11-600x600.jpg"
                                                                 src="./Personal – 3 – Mitra_files/weight_machine.avif"
-                                                                alt= "Weight machine"
+                                                                alt="Weight machine"
                                                               />
                                                             </div>
                                                             <div className="afc-portfolio-item__content">
                                                               <h5 className="afc-portfolio-item__title">
-                                                                Electronic Weight Machine
+                                                                Electronic
+                                                                Weight Machine
                                                               </h5>
                                                               <div className="afc-categories afc-categories--style-1">
                                                                 <span className="afc-portfolio-item__category afc-categories__item">
@@ -756,7 +424,7 @@ const Section = () => {
                                                           </div>
                                                           <a
                                                             className="afc-portfolio-item__link"
-                                                            href="http://wp.afracode.com/mitra/portfolio/online-music-player-app/"
+                                                            href="/products"
                                                             aria-hidden="true"
                                                           />
                                                         </div>
@@ -777,7 +445,7 @@ const Section = () => {
                                                             </div>
                                                             <div className="afc-portfolio-item__content">
                                                               <h5 className="afc-portfolio-item__title">
-                                                               Cotton Carry Bag
+                                                                Cotton Carry Bag
                                                               </h5>
                                                               <div className="afc-categories afc-categories--style-1">
                                                                 <span className="afc-portfolio-item__category afc-categories__item">
@@ -788,7 +456,7 @@ const Section = () => {
                                                           </div>
                                                           <a
                                                             className="afc-portfolio-item__link"
-                                                            href="http://wp.afracode.com/mitra/portfolio/minimal-design-artwork/"
+                                                            href="/products"
                                                             aria-hidden="true"
                                                           />
                                                         </div>
@@ -821,7 +489,7 @@ const Section = () => {
                                                           </div>
                                                           <a
                                                             className="afc-portfolio-item__link"
-                                                            href="http://wp.afracode.com/mitra/portfolio/consumer-electronics/"
+                                                            href="/products"
                                                             aria-hidden="true"
                                                           />
                                                         </div>
@@ -853,7 +521,7 @@ const Section = () => {
                                                           </div>
                                                           <a
                                                             className="afc-portfolio-item__link"
-                                                            href="http://wp.afracode.com/mitra/portfolio/home-appliances/"
+                                                            href="/products"
                                                             aria-hidden="true"
                                                           />
                                                         </div>
@@ -987,7 +655,7 @@ const Section = () => {
                                                               <img
                                                                 width={150}
                                                                 height={150}
-                                                                src="./Personal – 3 – Mitra_files/w1-150x150.jpg"
+                                                                src="./Personal – 3 – Mitra_files/business-36-150x150.jpg"
                                                                 className="attachment-thumbnail size-thumbnail"
                                                                 alt="image"
                                                                 decoding="async"
@@ -1062,14 +730,14 @@ const Section = () => {
                                                               <img
                                                                 width={150}
                                                                 height={150}
-                                                                src="./Personal – 3 – Mitra_files/lifestyle-55-150x150.jpg"
+                                                                src="./Personal – 3 – Mitra_files/business-36-150x150.jpg"
                                                                 className="attachment-thumbnail size-thumbnail"
                                                                 alt="image"
                                                                 decoding="async"
                                                                 loading="lazy"
                                                                 srcSet="
-                                                        http://wp.afracode.com/mitra/wp-content/uploads/2022/01/lifestyle-55-150x150.jpg 150w,
-                                                        http://wp.afracode.com/mitra/wp-content/uploads/2022/01/lifestyle-55-600x600.jpg 600w
+                                                        http://wp.afracode.com/mitra/wp-content/uploads/2022/01/business-36-150x150.jpg 150w,
+                                                        http://wp.afracode.com/mitra/wp-content/uploads/2022/01/business-36-150x150.jpg 600w
                                                       "
                                                                 sizes="(max-width: 150px) 100vw, 150px"
                                                               />
@@ -1287,14 +955,14 @@ const Section = () => {
                                                               <img
                                                                 width={150}
                                                                 height={150}
-                                                                src="./Personal – 3 – Mitra_files/w1-150x150.jpg"
+                                                                src="./Personal – 3 – Mitra_files/business-36-150x150.jpg"
                                                                 className="attachment-thumbnail size-thumbnail"
                                                                 alt="image"
                                                                 decoding="async"
                                                                 loading="lazy"
                                                                 srcSet="
-                                                        http://wp.afracode.com/mitra/wp-content/uploads/2022/01/w1-150x150.jpg 150w,
-                                                        http://wp.afracode.com/mitra/wp-content/uploads/2022/01/w1-600x600.jpg 600w
+                                                        http://wp.afracode.com/mitra/wp-content/uploads/2022/01/business-36-150x150.jpg 150w,
+                                                        http://wp.afracode.com/mitra/wp-content/uploads/2022/01/business-36-150x150.jpg 600w
                                                       "
                                                                 sizes="(max-width: 150px) 100vw, 150px"
                                                               />
@@ -1954,7 +1622,8 @@ const Section = () => {
                                                     100+
                                                   </h4>
                                                   <p className="afc-infobox-img__description">
-                                                    Happy  and Satisfied Customers
+                                                    Happy and Satisfied
+                                                    Customers
                                                   </p>
                                                 </div>
                                               </div>
@@ -1991,7 +1660,7 @@ const Section = () => {
                                                     1000
                                                   </h4>
                                                   <p className="afc-infobox-img__description">
-                                                    Global Customer
+                                                    Across Turkey
                                                   </p>
                                                 </div>
                                               </div>
@@ -2009,110 +1678,7 @@ const Section = () => {
                       </div>
                     </div>
                   </section>
-                  {/* work section */}
-                  {/* <section
-                    className="elementor-section elementor-top-section elementor-element elementor-element-2f984e0 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                    data-id="2f984e0"
-                    data-element_type="section"
-                    data-settings='{"background_background":"classic"}'
-                  >
-                    <div className="elementor-container elementor-column-gap-default">
-                      <div className="elementor-row">
-                        <div
-                          className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2f1f52e"
-                          data-id="2f1f52e"
-                          data-element_type="column"
-                        >
-                          <div className="elementor-column-wrap elementor-element-populated">
-                            <div className="elementor-widget-wrap">
-                              <section
-                                className="elementor-section elementor-inner-section elementor-element elementor-element-761906e elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                data-id="761906e"
-                                data-element_type="section"
-                              >
-                                <div className="elementor-container elementor-column-gap-no">
-                                  <div className="elementor-row">
-                                    <div
-                                      className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3ad6bac"
-                                      data-id="3ad6bac"
-                                      data-element_type="column"
-                                    >
-                                      <div className="elementor-column-wrap elementor-element-populated">
-                                        <div className="elementor-widget-wrap">
-                                          <div
-                                            className="wow afc-animate-widget fadeInUpSm elementor-element elementor-element-b09d85f elementor-mobile-align-center elementor-widget elementor-widget-afracode-heading-title"
-                                            data-id="b09d85f"
-                                            data-element_type="widget"
-                                            data-settings='{"afc_animation_name":"fadeInUpSm","afc_transform":"none"}'
-                                            data-widget_type="afracode-heading-title.default"
-                                            style={{
-                                              visibility: "visible",
-                                              "-webkit-animation-name":
-                                                "_fadeInUpSm",
-                                              "animation-name": "_fadeInUpSm",
-                                            }}
-                                          >
-                                            <div className="elementor-widget-container">
-                                              <div className="afc-heading afc-heading--style-1">
-                                                <div>
-                                                  <h2 className="afc-heading__title default">
-                                                    <span className="afc-heading__title__text afc-heading__title__main">
-                                                      Work 7,500 customers
-                                                      around the world
-                                                    </span>
-                                                  </h2>
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div
-                                      className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ee309ac"
-                                      data-id="ee309ac"
-                                      data-element_type="column"
-                                    >
-                                      <div className="elementor-column-wrap elementor-element-populated">
-                                        <div className="elementor-widget-wrap">
-                                          <div
-                                            className="wow afc-animate-widget fadeInLeftSm elementor-element elementor-element-d6ebcb1 elementor-align-right elementor-mobile-align-center elementor-widget elementor-widget-afracode-button"
-                                            data-id="d6ebcb1"
-                                            data-element_type="widget"
-                                            data-settings='{"afc_animation_name":"fadeInLeftSm","afc_transform":"none"}'
-                                            data-widget_type="afracode-button.default"
-                                            style={{
-                                              visibility: "visible",
-                                              "-webkit-animation-name":
-                                                "_fadeInLeftSm",
-                                              "animation-name": "_fadeInLeftSm",
-                                            }}
-                                          >
-                                            <div className="elementor-widget-container">
-                                              <a
-                                                role="button"
-                                                className="afc-button afc-button--sm afc-button--style-1 afc-button--outline-light"
-                                                href="http://wp.afracode.com/mitra/personal-3/#"
-                                                data-hover="Let's Work Together"
-                                              >
-                                                <span className="afc-button__text">
-                                                  Let's Work Together
-                                                </span>
-                                              </a>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </section>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </section> */}
+                 
                 </div>
               </div>
             </div>
